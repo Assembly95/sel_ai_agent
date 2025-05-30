@@ -1,0 +1,8 @@
+# 모든 텍스트 파일은 Git이 자동으로 줄 끝을 처리하도록 설정
+* text=auto
+
+# ffmpeg 빌드 디렉토리는 줄 끝 자동 변환 무시
+ffmpeg-7.1.1-essentials_build/** text=false
+
+# vosk 모델 디렉토리는 줄 끝 자동 변환 무시
+vosk-model-small-ko-0.22/** text=false
